@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features=".\\Features\\login_nopcommerce.feature",
+		features=".\\Features\\customers.feature",
 		glue="stepDefinitions",
 		dryRun=false,
 		monochrome=true,
